@@ -4,7 +4,7 @@
  */
 
 // Use Vite environment variable or default to localhost:5001
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5001';
+const API_URL = import.meta.env.VITE_API_URL || "https://acadmate.acadmate.eu/api";
 
 export const fileAPI = {
   /**
